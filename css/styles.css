@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.333% - 20px);
+}
+
+.gallery-image {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
